@@ -22,7 +22,19 @@ int main()
 
   float a = 5;
   float b = 7;
-  
+
 
   cout << a / b << endl;
+
+  string input;
+  cout << "Hello, what is your name?" << endl;
+  cin >> input;
+
+  cout << "Hello, " << input << endl;
+
+  int age;
+  cout << "How old are you? " << endl;
+  cin >> age;
+
+  cout << "You are " << age << " years old." << endl;
 }
